@@ -1,0 +1,1 @@
+`GoolgeMapsBase.framework` *v2.1.0* carthage support. Have fun =)

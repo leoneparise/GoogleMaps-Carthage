@@ -4,15 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GoogleMaps.xcscheme</key>
+		<key>GoogleMaps.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>GoogleMapsBase.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GoogleMapsCore.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B9EE036C1D9D8429003E7610</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B9EE037C1D9D843A003E7610</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B9EE03891D9D8444003E7610</key>
 		<dict>
 			<key>primary</key>
 			<true/>
