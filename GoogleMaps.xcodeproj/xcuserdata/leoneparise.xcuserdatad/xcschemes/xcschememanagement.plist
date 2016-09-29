@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>GoogleMapsM4B.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>B9EE03891D9D8444003E7610</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B9EE04991D9D9478003E7610</key>
 		<dict>
 			<key>primary</key>
 			<true/>
