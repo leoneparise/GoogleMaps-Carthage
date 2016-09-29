@@ -1,1 +1,1 @@
-`GoolgeMapsBase.framework` *v2.1.0* carthage support. Have fun =)
+GoogleMaps Carthage support. Have fun =)
