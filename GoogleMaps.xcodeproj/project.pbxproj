@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9234B4D1D9E2C68001EE0B5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */; };
 		B9EE03721D9D8429003E7610 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03701D9D8429003E7610 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03811D9D843B003E7610 /* GoogleMapsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE037F1D9D843B003E7610 /* GoogleMapsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE038E1D9D8444003E7610 /* GoogleMapsCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE038C1D9D8444003E7610 /* GoogleMapsCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -89,13 +90,15 @@
 		B9EE04201D9D88AA003E7610 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE039F1D9D84DE003E7610 /* libc++.tbd */; };
 		B9EE04211D9D88BA003E7610 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03991D9D84CC003E7610 /* UIKit.framework */; };
 		B9EE04221D9D88D6003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE039D1D9D84D8003E7610 /* Foundation.framework */; };
-		B9EE049E1D9D9478003E7610 /* GoogleMapsM4B.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE049C1D9D9478003E7610 /* GoogleMapsM4B.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9EE049E1D9D9478003E7610 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE049C1D9D9478003E7610 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE04A21D9D9480003E7610 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */; };
 		B9EE04A41D9D94A0003E7610 /* GoogleMapsM4B in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */; };
 		B9EE04A51D9D94CE003E7610 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE039D1D9D84D8003E7610 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9234B4B1D9E2C1D001EE0B5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE03701D9D8429003E7610 /* GoogleMaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
 		B9EE03711D9D8429003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,7 +167,7 @@
 		B9EE03EE1D9D87DA003E7610 /* GMSUISettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSUISettings.h; sourceTree = "<group>"; };
 		B9EE03EF1D9D87DA003E7610 /* GMSURLTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSURLTileLayer.h; sourceTree = "<group>"; };
 		B9EE049A1D9D9478003E7610 /* GoogleMapsM4B.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMapsM4B.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9EE049C1D9D9478003E7610 /* GoogleMapsM4B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMapsM4B.h; sourceTree = "<group>"; };
+		B9EE049C1D9D9478003E7610 /* GoogleMaps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
 		B9EE049D1D9D9478003E7610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = GoogleMapsM4B; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -269,6 +272,7 @@
 		B9EE036F1D9D8429003E7610 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
+				B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */,
 				B9EE03CA1D9D87DA003E7610 /* GMSAddress.h */,
 				B9EE03CB1D9D87DA003E7610 /* GMSCALayer.h */,
 				B9EE03CC1D9D87DA003E7610 /* GMSCameraPosition.h */,
@@ -361,8 +365,9 @@
 		B9EE049B1D9D9478003E7610 /* GoogleMapsM4B */ = {
 			isa = PBXGroup;
 			children = (
+				B9234B4B1D9E2C1D001EE0B5 /* module.modulemap */,
 				B9EE04A31D9D94A0003E7610 /* GoogleMapsM4B */,
-				B9EE049C1D9D9478003E7610 /* GoogleMapsM4B.h */,
+				B9EE049C1D9D9478003E7610 /* GoogleMaps.h */,
 				B9EE049D1D9D9478003E7610 /* Info.plist */,
 			);
 			path = GoogleMapsM4B;
@@ -439,7 +444,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9EE049E1D9D9478003E7610 /* GoogleMapsM4B.h in Headers */,
+				B9EE049E1D9D9478003E7610 /* GoogleMaps.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +575,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9234B4D1D9E2C68001EE0B5 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,6 +852,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = GoogleMapsM4B/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -864,6 +871,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = GoogleMapsM4B/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -916,6 +924,7 @@
 				B9EE04A11D9D9478003E7610 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
