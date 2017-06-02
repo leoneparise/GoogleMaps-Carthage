@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Animation types for GMSMarker.
+ *
+ * @related GMSMarker
  */
 typedef NS_ENUM(NSUInteger, GMSMarkerAnimation) {
   /** No animation (default). */
