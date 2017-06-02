@@ -8,7 +8,7 @@
 //  Service: https://developers.google.com/maps/terms
 //
 
-#import <UIKIt/UIKit.h>
+#import <UIKit/UIKit.h>
 
 @class GMSMapView;
 

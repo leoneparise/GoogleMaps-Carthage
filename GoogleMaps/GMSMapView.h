@@ -107,7 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)mapView:(GMSMapView *)mapView didTapOverlay:(GMSOverlay *)overlay;
 
 /**
- *  Called after a POI has been tapped.
+ * Called after a POI has been tapped.
  *
  * @param mapView The map view that was tapped.
  * @param placeID The placeID of the POI that was tapped.
@@ -199,6 +199,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Display types for GMSMapView.
+ *
+ * @related GMSMapView
  */
 typedef NS_ENUM(NSUInteger, GMSMapViewType) {
   /** Basic maps.  The default. */
@@ -220,6 +222,8 @@ typedef NS_ENUM(NSUInteger, GMSMapViewType) {
 
 /**
  * Rendering frame rates for GMSMapView.
+ *
+ * @related GMSMapView
  */
 typedef NS_ENUM(NSUInteger, GMSFrameRate) {
   /** Use the minimum frame rate to conserve battery usage. */
@@ -440,11 +444,15 @@ typedef NS_ENUM(NSUInteger, GMSFrameRate) {
 
 /**
  * Accessibility identifier for the compass button.
+ *
+ * @related GMSMapView
  */
 extern NSString *const kGMSAccessibilityCompass;
 
 /**
  * Accessibility identifier for the "my location" button.
+ *
+ * @related GMSMapView
  */
 extern NSString *const kGMSAccessibilityMyLocation;
 
