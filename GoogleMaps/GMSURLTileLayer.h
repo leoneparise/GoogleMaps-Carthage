@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * |GMSTileURLConstructor| is a block taking |x|, |y| and |zoom| and returning an NSURL, or nil to
  * indicate no tile for that location.
+ *
+ * @related GMSURLTileLayer
  */
 typedef NSURL *_Nullable (^GMSTileURLConstructor)(NSUInteger x, NSUInteger y, NSUInteger zoom);
 

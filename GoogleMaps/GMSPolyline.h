@@ -8,7 +8,7 @@
 //  Service: https://developers.google.com/maps/terms
 //
 
-#import <UIKit/UIKIt.h>
+#import <UIKit/UIKit.h>
 
 #import <GoogleMaps/GMSOverlay.h>
 

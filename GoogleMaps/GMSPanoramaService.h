@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
  * Callback for when a panorama metadata becomes available.
  * If an error occured, |panorama| is nil and |error| is not nil.
  * Otherwise, |panorama| is not nil and |error| is nil.
+ *
+ * @related GMSPanoramaService
  */
 typedef void (^GMSPanoramaCallback)(GMSPanorama *_Nullable panorama, NSError *_Nullable error);
 
