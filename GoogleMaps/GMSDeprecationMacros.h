@@ -15,4 +15,8 @@
 #define __GMS_AVAILABLE_BUT_DEPRECATED __deprecated
 #endif
 
+#ifndef __GMS_AVAILABLE_BUT_DEPRECATED_MSG
+#define __GMS_AVAILABLE_BUT_DEPRECATED_MSG(msg) __deprecated_msg(msg)
+#endif
+
 #endif

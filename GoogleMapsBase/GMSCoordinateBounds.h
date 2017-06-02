@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
  * When an invalid bounds is expanded with valid coordinates via includingCoordinate: or
  * includingBounds:, the resulting bounds will be valid but contain only the new coordinates.
  */
-@property(readonly, getter=isValid) BOOL valid;
+@property(nonatomic, readonly, getter=isValid) BOOL valid;
 
 /**
  * Inits the northEast and southWest bounds corresponding to the rectangular region defined by the

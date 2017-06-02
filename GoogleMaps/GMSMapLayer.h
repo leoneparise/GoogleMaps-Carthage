@@ -49,29 +49,39 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * kGMSLayerCameraLatitudeKey ranges from [-85, 85], and values outside this range will be clamped.
+ *
+ * @related GMSMapLayer
  */
 extern NSString *const kGMSLayerCameraLatitudeKey;
 
 /**
  * kGMSLayerCameraLongitudeKey ranges from [-180, 180), and values outside this range will be
  * wrapped to within this range.
+ *
+ * @related GMSMapLayer
  */
 extern NSString *const kGMSLayerCameraLongitudeKey;
 
 /**
  * kGMSLayerCameraBearingKey ranges from [0, 360), and values are wrapped.
+ *
+ * @related GMSMapLayer
  */
 extern NSString *const kGMSLayerCameraBearingKey;
 
 /**
  * kGMSLayerCameraZoomLevelKey ranges from [kGMSMinZoomLevel, kGMSMaxZoomLevel], and values are
  * clamped.
+ *
+ * @related GMSMapLayer
  */
 extern NSString *const kGMSLayerCameraZoomLevelKey;
 
 /**
  * kGMSLayerCameraViewingAngleKey ranges from zero (i.e., facing straight down) and to between 30
  * and 45 degrees towards the horizon, depending on the model zoom level.
+ *
+ * @related GMSMapLayer
  */
 extern NSString *const kGMSLayerCameraViewingAngleKey;
 
