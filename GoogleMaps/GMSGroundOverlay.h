@@ -10,11 +10,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOverlay.h>
+#import "GMSOverlay.h"
 
 @class GMSCoordinateBounds;
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /**
  * GMSGroundOverlay specifies the available options for a ground overlay that exists on the Earth's
@@ -82,4 +82,4 @@ NS_ASSUME_NONNULL_BEGIN
  */
 FOUNDATION_EXTERN const CGPoint kGMSGroundOverlayDefaultAnchor;
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

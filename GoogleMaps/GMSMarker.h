@@ -10,13 +10,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOverlay.h>
+#import "GMSOverlay.h"
 
 @class GMSMarkerLayer;
 @class GMSPanoramaView;
 @class UIImage;
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /**
  * Animation types for GMSMarker.
@@ -171,4 +171,4 @@ FOUNDATION_EXTERN const CGPoint kGMSMarkerDefaultGroundAnchor;
  */
 FOUNDATION_EXTERN const CGPoint kGMSMarkerDefaultInfoWindowAnchor;
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

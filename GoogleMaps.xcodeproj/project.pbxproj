@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72C2FA61F6A86DD0076B723 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
+		A72C2FA81F6A87620076B723 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A72C2FA71F6A87620076B723 /* GMSDeprecationMacros.h */; };
+		A72C2FAA1F6A88100076B723 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C2FA91F6A88100076B723 /* CoreTelephony.framework */; };
 		B9234B4D1D9E2C68001EE0B5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */; };
 		B9EE03721D9D8429003E7610 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03701D9D8429003E7610 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03811D9D843B003E7610 /* GoogleMapsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE037F1D9D843B003E7610 /* GoogleMapsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,7 +50,6 @@
 		B9EE03F31D9D87DA003E7610 /* GMSCameraUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03CD1D9D87DA003E7610 /* GMSCameraUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F41D9D87DA003E7610 /* GMSCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03CE1D9D87DA003E7610 /* GMSCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F51D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03CF1D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9EE03F61D9D87DA003E7610 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D01D9D87DA003E7610 /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F71D9D87DA003E7610 /* GMSGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D11D9D87DA003E7610 /* GMSGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F81D9D87DA003E7610 /* GMSGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D21D9D87DA003E7610 /* GMSGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03F91D9D87DA003E7610 /* GMSGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03D31D9D87DA003E7610 /* GMSGroundOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,6 +99,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A72C2FA71F6A87620076B723 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
+		A72C2FA91F6A88100076B723 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		B9234B4B1D9E2C1D001EE0B5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +138,6 @@
 		B9EE03CD1D9D87DA003E7610 /* GMSCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCameraUpdate.h; sourceTree = "<group>"; };
 		B9EE03CE1D9D87DA003E7610 /* GMSCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSCircle.h; sourceTree = "<group>"; };
 		B9EE03CF1D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMSCoordinateBounds+GoogleMaps.h"; sourceTree = "<group>"; };
-		B9EE03D01D9D87DA003E7610 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
 		B9EE03D11D9D87DA003E7610 /* GMSGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeocoder.h; sourceTree = "<group>"; };
 		B9EE03D21D9D87DA003E7610 /* GMSGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGeometryUtils.h; sourceTree = "<group>"; };
 		B9EE03D31D9D87DA003E7610 /* GMSGroundOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSGroundOverlay.h; sourceTree = "<group>"; };
@@ -223,12 +226,14 @@
 				B9EE03C01D9D86A2003E7610 /* CoreData.framework in Frameworks */,
 				B9EE03BF1D9D8694003E7610 /* CoreLocation.framework in Frameworks */,
 				B9EE03BE1D9D867C003E7610 /* CoreGraphics.framework in Frameworks */,
+				A72C2FAA1F6A88100076B723 /* CoreTelephony.framework in Frameworks */,
 				B9EE03BD1D9D865A003E7610 /* QuartzCore.framework in Frameworks */,
 				B9EE03BC1D9D8610003E7610 /* Foundation.framework in Frameworks */,
 				B9EE03BB1D9D8606003E7610 /* UIKit.framework in Frameworks */,
 				B9EE03BA1D9D85E5003E7610 /* CoreText.framework in Frameworks */,
 				B9EE03B61D9D85D4003E7610 /* ImageIO.framework in Frameworks */,
 				B9EE03B41D9D85CD003E7610 /* GLKit.framework in Frameworks */,
+				A72C2FA61F6A86DD0076B723 /* SystemConfiguration.framework in Frameworks */,
 				B9EE03B21D9D85BD003E7610 /* GoogleMapsBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,7 +284,6 @@
 				B9EE03CD1D9D87DA003E7610 /* GMSCameraUpdate.h */,
 				B9EE03CE1D9D87DA003E7610 /* GMSCircle.h */,
 				B9EE03CF1D9D87DA003E7610 /* GMSCoordinateBounds+GoogleMaps.h */,
-				B9EE03D01D9D87DA003E7610 /* GMSDeprecationMacros.h */,
 				B9EE03D11D9D87DA003E7610 /* GMSGeocoder.h */,
 				B9EE03D21D9D87DA003E7610 /* GMSGeometryUtils.h */,
 				B9EE03D31D9D87DA003E7610 /* GMSGroundOverlay.h */,
@@ -324,6 +328,7 @@
 				B9EE03961D9D84BC003E7610 /* GoogleMapsBase */,
 				B9EE03921D9D849D003E7610 /* GMSCompatabilityMacros.h */,
 				B9EE03931D9D849D003E7610 /* GMSCoordinateBounds.h */,
+				A72C2FA71F6A87620076B723 /* GMSDeprecationMacros.h */,
 				B9EE037F1D9D843B003E7610 /* GoogleMapsBase.h */,
 				B9EE03801D9D843B003E7610 /* Info.plist */,
 			);
@@ -343,6 +348,7 @@
 		B9EE03981D9D84CC003E7610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A72C2FA91F6A88100076B723 /* CoreTelephony.framework */,
 				B9EE03C41D9D8758003E7610 /* Accelerate.framework */,
 				B9EE03B91D9D85E5003E7610 /* CoreText.framework */,
 				B9EE03B71D9D85DD003E7610 /* OpenGLES.framework */,
@@ -409,7 +415,6 @@
 				B9EE04041D9D87DA003E7610 /* GMSOrientation.h in Headers */,
 				B9EE04001D9D87DA003E7610 /* GMSMapView+Animation.h in Headers */,
 				B9EE04111D9D87DA003E7610 /* GMSServices.h in Headers */,
-				B9EE03F61D9D87DA003E7610 /* GMSDeprecationMacros.h in Headers */,
 				B9EE03FC1D9D87DA003E7610 /* GMSIndoorLevel.h in Headers */,
 				B9EE03FB1D9D87DA003E7610 /* GMSIndoorDisplay.h in Headers */,
 				B9EE040B1D9D87DA003E7610 /* GMSPanoramaService.h in Headers */,
@@ -428,6 +433,7 @@
 			files = (
 				B9EE03941D9D849D003E7610 /* GMSCompatabilityMacros.h in Headers */,
 				B9EE03951D9D849D003E7610 /* GMSCoordinateBounds.h in Headers */,
+				A72C2FA81F6A87620076B723 /* GMSDeprecationMacros.h in Headers */,
 				B9EE03811D9D843B003E7610 /* GoogleMapsBase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,7 +535,7 @@
 		B9EE03641D9D8429003E7610 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = com.google;
 				TargetAttributes = {
 					B9EE036C1D9D8429003E7610 = {
@@ -652,6 +658,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -675,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -703,6 +710,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -720,7 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -740,7 +748,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMaps/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMaps;
@@ -759,7 +766,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMaps/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMaps;
@@ -778,7 +784,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMapsBase/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsBase;
@@ -797,7 +802,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMapsBase/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsBase;
@@ -817,7 +821,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMapsCore/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsCore;
@@ -837,7 +840,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMapsCore/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsCore;
@@ -856,7 +858,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsM4B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMapsM4B/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsM4B;
@@ -875,7 +876,6 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsM4B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = GoogleMapsM4B/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsM4B;

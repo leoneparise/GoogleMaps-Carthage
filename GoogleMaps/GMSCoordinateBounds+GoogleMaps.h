@@ -15,11 +15,11 @@
 #import <GoogleMapsBase/GoogleMapsBase.h>
 #endif
 
-#import <GoogleMaps/GMSProjection.h>
+#import "GMSProjection.h"
 
 @class GMSPath;
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 @interface GMSCoordinateBounds (GoogleMaps)
 
@@ -40,4 +40,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

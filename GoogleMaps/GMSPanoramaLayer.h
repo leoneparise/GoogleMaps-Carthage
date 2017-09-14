@@ -11,9 +11,9 @@
 #import <CoreLocation/CoreLocation.h>
 #import <QuartzCore/QuartzCore.h>
 
-#import <GoogleMaps/GMSCALayer.h>
+#import "GMSCALayer.h"
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /**
  * kGMSLayerPanoramaHeadingKey ranges from [0, 360).
@@ -54,4 +54,4 @@ extern NSString *const kGMSLayerPanoramaFOVKey;
 @property(nonatomic, assign) double cameraFOV;
 @end
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

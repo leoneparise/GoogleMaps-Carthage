@@ -10,9 +10,13 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <GoogleMaps/GMSDeprecationMacros.h>
+#if __has_feature(modules)
+@import GoogleMapsBase;
+#else
+#import <GoogleMapsBase/GoogleMapsBase.h>
+#endif
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /**
  * A result from a reverse geocode request, containing a human-readable address. This class is
@@ -48,19 +52,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Returns the first line of the address.
- *
- * This method is obsolete and deprecated and will be removed in a future release.
- * Use the lines property instead.
  */
-- (nullable NSString *)addressLine1 __GMS_AVAILABLE_BUT_DEPRECATED;
+- (nullable NSString *)addressLine1 __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+    "This method is obsolete and will be removed in a future release. Use the lines property "
+    "instead.");
 
 /**
  * Returns the second line of the address.
- *
- * This method is obsolete and deprecated and will be removed in a future release.
- * Use the lines property instead.
  */
-- (nullable NSString *)addressLine2 __GMS_AVAILABLE_BUT_DEPRECATED;
+- (nullable NSString *)addressLine2 __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+    "This method is obsolete and will be removed in a future release. Use the lines property "
+    "instead.");
 
 @end
 
@@ -70,4 +72,4 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @compatibility_alias GMSReverseGeocodeResult GMSAddress;
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;
