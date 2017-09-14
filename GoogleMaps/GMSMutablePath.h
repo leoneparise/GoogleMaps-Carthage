@@ -8,7 +8,7 @@
 //  Service: https://developers.google.com/maps/terms
 //
 
-#import <GoogleMaps/GMSPath.h>
+#import "GMSPath.h"
 
 #import <CoreLocation/CoreLocation.h>
 #import <Foundation/Foundation.h>

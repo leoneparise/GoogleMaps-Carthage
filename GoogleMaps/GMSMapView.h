@@ -16,9 +16,13 @@
 #else
 #import <GoogleMapsBase/GoogleMapsBase.h>
 #endif
-#import <GoogleMaps/GMSDeprecationMacros.h>
-#import <GoogleMaps/GMSMapLayer.h>
-#import <GoogleMaps/GMSUISettings.h>
+#if __has_feature(modules)
+@import GoogleMapsBase;
+#else
+#import <GoogleMapsBase/GoogleMapsBase.h>
+#endif
+#import "GMSMapLayer.h"
+#import "GMSUISettings.h"
 
 @class GMSCameraPosition;
 @class GMSCameraUpdate;
@@ -31,7 +35,7 @@
 @class GMSOverlay;
 @class GMSProjection;
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /** Delegate for events on GMSMapView. */
 @protocol GMSMapViewDelegate<NSObject>
@@ -394,17 +398,15 @@ typedef NS_ENUM(NSUInteger, GMSFrameRate) {
 
 /**
  * Tells this map to power up its renderer. This is optional and idempotent.
- *
- * This method is obsolete and deprecated and will be removed in a future release.
  */
-- (void)startRendering __GMS_AVAILABLE_BUT_DEPRECATED;
+- (void)startRendering __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+    "This method is obsolete and will be removed in a future release.");
 
 /**
  * Tells this map to power down its renderer. This is optional and idempotent.
- *
- * This method is obsolete and deprecated and will be removed in a future release.
  */
-- (void)stopRendering __GMS_AVAILABLE_BUT_DEPRECATED;
+- (void)stopRendering __GMS_AVAILABLE_BUT_DEPRECATED_MSG(
+    "This method is obsolete and will be removed in a future release.");
 
 /**
  * Clears all markup that has been added to the map, including markers, polylines and ground
@@ -456,4 +458,4 @@ extern NSString *const kGMSAccessibilityCompass;
  */
 extern NSString *const kGMSAccessibilityMyLocation;
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

@@ -11,8 +11,8 @@
 #import <CoreLocation/CoreLocation.h>
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOrientation.h>
-#import <GoogleMaps/GMSPanoramaLayer.h>
+#import "GMSOrientation.h"
+#import "GMSPanoramaLayer.h"
 
 @class GMSMarker;
 @class GMSPanorama;
@@ -20,7 +20,7 @@
 @class GMSPanoramaCameraUpdate;
 @class GMSPanoramaView;
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /** Delegate for events on GMSPanoramaView. */
 @protocol GMSPanoramaViewDelegate<NSObject>
@@ -257,4 +257,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

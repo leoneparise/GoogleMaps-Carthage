@@ -10,9 +10,9 @@
 
 #import <CoreLocation/CoreLocation.h>
 
-#import <GoogleMaps/GMSOrientation.h>
+#import "GMSOrientation.h"
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /**
  * GMSPanoramaCamera is used to control the viewing direction of a GMSPanoramaView. It does not
@@ -78,4 +78,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;

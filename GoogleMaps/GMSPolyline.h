@@ -10,11 +10,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import <GoogleMaps/GMSOverlay.h>
+#import "GMSOverlay.h"
 
 @class GMSPath;
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN;
 
 /** Describes the drawing style for one-dimensional entities such as polylines. */
 @interface GMSStrokeStyle : NSObject
@@ -103,4 +103,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
+NS_ASSUME_NONNULL_END;
