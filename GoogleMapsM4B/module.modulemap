@@ -7,6 +7,8 @@ framework module GoogleMapsM4B {
   link framework "CoreGraphics"
   link framework "CoreLocation"
   link framework "CoreTelephony"
+  link framework "Foundation"
   link framework "QuartzCore"
   link framework "Security"
-  link framework "SystemConfiguration"}
+  link framework "SystemConfiguration"
+  link framework "UIKit"}
