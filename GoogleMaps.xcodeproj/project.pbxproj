@@ -10,6 +10,13 @@
 		A72C2FA61F6A86DD0076B723 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
 		A72C2FA81F6A87620076B723 /* GMSDeprecationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A72C2FA71F6A87620076B723 /* GMSDeprecationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A72C2FAA1F6A88100076B723 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C2FA91F6A88100076B723 /* CoreTelephony.framework */; };
+		A76265052037684700DD730E /* GMSPanoramaSource.h in Headers */ = {isa = PBXBuildFile; fileRef = A76265042037684700DD730E /* GMSPanoramaSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76265062037687D00DD730E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A31D9D84EC003E7610 /* Security.framework */; };
+		A76265082037689800DD730E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76265072037689800DD730E /* CoreImage.framework */; };
+		A7C35D00200240CA0046AD4C /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AD1D9D857A003E7610 /* GoogleMapsCore */; };
+		A7C35D01200240ED0046AD4C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C2FA91F6A88100076B723 /* CoreTelephony.framework */; };
+		A7C35D022002410C0046AD4C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AB1D9D8518003E7610 /* CoreData.framework */; };
+		A7C35D03200241170046AD4C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
 		B9234B4D1D9E2C68001EE0B5 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */; };
 		B9EE03721D9D8429003E7610 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE03701D9D8429003E7610 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE03811D9D843B003E7610 /* GoogleMapsBase.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE037F1D9D843B003E7610 /* GoogleMapsBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,7 +34,6 @@
 		B9EE03A81D9D8508003E7610 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A71D9D8508003E7610 /* QuartzCore.framework */; };
 		B9EE03AA1D9D8511003E7610 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A91D9D8511003E7610 /* CoreGraphics.framework */; };
 		B9EE03AC1D9D8518003E7610 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AB1D9D8518003E7610 /* CoreData.framework */; };
-		B9EE03AE1D9D857A003E7610 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AD1D9D857A003E7610 /* GoogleMapsCore */; };
 		B9EE03B21D9D85BD003E7610 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE037D1D9D843A003E7610 /* GoogleMapsBase.framework */; };
 		B9EE03B41D9D85CD003E7610 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B31D9D85CD003E7610 /* GLKit.framework */; };
 		B9EE03B61D9D85D4003E7610 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B51D9D85D4003E7610 /* ImageIO.framework */; };
@@ -101,6 +107,8 @@
 /* Begin PBXFileReference section */
 		A72C2FA71F6A87620076B723 /* GMSDeprecationMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSDeprecationMacros.h; sourceTree = "<group>"; };
 		A72C2FA91F6A88100076B723 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A76265042037684700DD730E /* GMSPanoramaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSPanoramaSource.h; sourceTree = "<group>"; };
+		A76265072037689800DD730E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		B9234B4B1D9E2C1D001EE0B5 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
 		B9EE036D1D9D8429003E7610 /* GoogleMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +188,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76265082037689800DD730E /* CoreImage.framework in Frameworks */,
+				A76265062037687D00DD730E /* Security.framework in Frameworks */,
+				A7C35D03200241170046AD4C /* SystemConfiguration.framework in Frameworks */,
+				A7C35D022002410C0046AD4C /* CoreData.framework in Frameworks */,
+				A7C35D01200240ED0046AD4C /* CoreTelephony.framework in Frameworks */,
 				B9EE04201D9D88AA003E7610 /* libc++.tbd in Frameworks */,
 				B9EE04221D9D88D6003E7610 /* Foundation.framework in Frameworks */,
 				B9EE04211D9D88BA003E7610 /* UIKit.framework in Frameworks */,
@@ -190,6 +203,7 @@
 				B9EE041A1D9D8844003E7610 /* GLKit.framework in Frameworks */,
 				B9EE04191D9D883A003E7610 /* QuartzCore.framework in Frameworks */,
 				B9EE04171D9D882A003E7610 /* OpenGLES.framework in Frameworks */,
+				A7C35D00200240CA0046AD4C /* GoogleMapsCore in Frameworks */,
 				B9EE04161D9D8825003E7610 /* Accelerate.framework in Frameworks */,
 				B9EE03C91D9D87A0003E7610 /* GoogleMapsCore.framework in Frameworks */,
 				B9EE03C81D9D879D003E7610 /* GoogleMapsBase.framework in Frameworks */,
@@ -220,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9EE03C11D9D86AF003E7610 /* libc++.tbd in Frameworks */,
-				B9EE03AE1D9D857A003E7610 /* GoogleMapsCore in Frameworks */,
 				B9EE03C51D9D8758003E7610 /* Accelerate.framework in Frameworks */,
 				B9EE03C21D9D86FA003E7610 /* OpenGLES.framework in Frameworks */,
 				B9EE03C01D9D86A2003E7610 /* CoreData.framework in Frameworks */,
@@ -277,7 +290,6 @@
 		B9EE036F1D9D8429003E7610 /* GoogleMaps */ = {
 			isa = PBXGroup;
 			children = (
-				B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */,
 				B9EE03CA1D9D87DA003E7610 /* GMSAddress.h */,
 				B9EE03CB1D9D87DA003E7610 /* GMSCALayer.h */,
 				B9EE03CC1D9D87DA003E7610 /* GMSCameraPosition.h */,
@@ -305,6 +317,7 @@
 				B9EE03E31D9D87DA003E7610 /* GMSPanoramaLayer.h */,
 				B9EE03E41D9D87DA003E7610 /* GMSPanoramaLink.h */,
 				B9EE03E51D9D87DA003E7610 /* GMSPanoramaService.h */,
+				A76265042037684700DD730E /* GMSPanoramaSource.h */,
 				B9EE03E61D9D87DA003E7610 /* GMSPanoramaView.h */,
 				B9EE03E71D9D87DA003E7610 /* GMSPath.h */,
 				B9EE03E81D9D87DA003E7610 /* GMSPolygon.h */,
@@ -315,8 +328,9 @@
 				B9EE03ED1D9D87DA003E7610 /* GMSTileLayer.h */,
 				B9EE03EE1D9D87DA003E7610 /* GMSUISettings.h */,
 				B9EE03EF1D9D87DA003E7610 /* GMSURLTileLayer.h */,
-				B9EE03701D9D8429003E7610 /* GoogleMaps.h */,
 				B9EE03C61D9D8796003E7610 /* GoogleMaps */,
+				B9234B4C1D9E2C68001EE0B5 /* GoogleMaps.bundle */,
+				B9EE03701D9D8429003E7610 /* GoogleMaps.h */,
 				B9EE03711D9D8429003E7610 /* Info.plist */,
 			);
 			path = GoogleMaps;
@@ -348,6 +362,7 @@
 		B9EE03981D9D84CC003E7610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A76265072037689800DD730E /* CoreImage.framework */,
 				A72C2FA91F6A88100076B723 /* CoreTelephony.framework */,
 				B9EE03C41D9D8758003E7610 /* Accelerate.framework */,
 				B9EE03B91D9D85E5003E7610 /* CoreText.framework */,
@@ -391,6 +406,7 @@
 				B9EE040F1D9D87DA003E7610 /* GMSPolyline.h in Headers */,
 				B9EE04151D9D87DA003E7610 /* GMSURLTileLayer.h in Headers */,
 				B9EE03F41D9D87DA003E7610 /* GMSCircle.h in Headers */,
+				A76265052037684700DD730E /* GMSPanoramaSource.h in Headers */,
 				B9EE04061D9D87DA003E7610 /* GMSPanorama.h in Headers */,
 				B9EE03FA1D9D87DA003E7610 /* GMSIndoorBuilding.h in Headers */,
 				B9EE040A1D9D87DA003E7610 /* GMSPanoramaLink.h in Headers */,
@@ -535,7 +551,7 @@
 		B9EE03641D9D8429003E7610 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = com.google;
 				TargetAttributes = {
 					B9EE036C1D9D8429003E7610 = {
@@ -649,7 +665,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -657,7 +675,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -701,7 +723,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -709,7 +733,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
