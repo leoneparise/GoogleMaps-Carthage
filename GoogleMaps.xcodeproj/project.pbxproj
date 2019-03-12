@@ -96,6 +96,8 @@
 		6D552E9522378E8E00E9367F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03991D9D84CC003E7610 /* UIKit.framework */; };
 		6D552E9622378EBB00E9367F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
 		6D552E9722378ED100E9367F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A71D9D8508003E7610 /* QuartzCore.framework */; };
+		6D552E9822378FC700E9367F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03AB1D9D8518003E7610 /* CoreData.framework */; };
+		6D552E9922378FCF00E9367F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A91D9D8511003E7610 /* CoreGraphics.framework */; };
 		A72C2FA61F6A86DD0076B723 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */; };
 		A72C2FAA1F6A88100076B723 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C2FA91F6A88100076B723 /* CoreTelephony.framework */; };
 		A76265062037687D00DD730E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03A31D9D84EC003E7610 /* Security.framework */; };
@@ -280,6 +282,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D552E9922378FCF00E9367F /* CoreGraphics.framework in Frameworks */,
+				6D552E9822378FC700E9367F /* CoreData.framework in Frameworks */,
 				A76265082037689800DD730E /* CoreImage.framework in Frameworks */,
 				A76265062037687D00DD730E /* Security.framework in Frameworks */,
 				A7C35D03200241170046AD4C /* SystemConfiguration.framework in Frameworks */,
