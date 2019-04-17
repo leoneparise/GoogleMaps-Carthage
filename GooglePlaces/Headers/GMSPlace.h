@@ -1,6 +1,6 @@
 //
 //  GMSPlace.h
-//  Google Places API for iOS
+//  Google Places SDK for iOS
 //
 //  Copyright 2016 Google Inc.
 //
@@ -22,7 +22,7 @@
 @class GMSPlacePhotoMetadata;
 @class GMSPlusCode;
 
-NS_ASSUME_NONNULL_BEGIN;
+NS_ASSUME_NONNULL_BEGIN
 
 
 /**
@@ -135,7 +135,7 @@ typedef NS_ENUM(NSInteger, GMSPlacesPriceLevel) {
  * provider.
  *
  * In general, these must be shown to the user if data from this GMSPlace is shown, as described in
- * the Places API Terms of Service.
+ * the Places SDK Terms of Service.
  */
 @property(nonatomic, copy, readonly, nullable) NSAttributedString *attributions;
 
@@ -181,4 +181,4 @@ typedef NS_ENUM(NSInteger, GMSPlacesPriceLevel) {
 
 @end
 
-NS_ASSUME_NONNULL_END;
+NS_ASSUME_NONNULL_END

@@ -1,6 +1,6 @@
 //
 //  GMSPlaceFieldMask.h
-//  Google Places API for iOS
+//  Google Places SDK for iOS
 //
 //  Copyright 2018 Google Inc.
 //
@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN;
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * \defgroup PlaceField GMSPlaceField
@@ -46,4 +46,4 @@ typedef NS_ENUM(NSUInteger, GMSPlaceField) {
 
 /**@}*/
 
-NS_ASSUME_NONNULL_END;
+NS_ASSUME_NONNULL_END
