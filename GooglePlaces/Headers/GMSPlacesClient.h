@@ -1,6 +1,6 @@
 //
 //  GMSPlacesClient.h
-//  Google Places API for iOS
+//  Google Places SDK for iOS
 //
 //  Copyright 2016 Google Inc.
 //
@@ -30,7 +30,7 @@
 @class GMSPlacePhotoMetadataList;
 
 
-NS_ASSUME_NONNULL_BEGIN;
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Callback type for receiving place details lookups. If an error occurred,
@@ -96,7 +96,7 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
                                                  NSError *_Nullable error);
 
 /**
- * Main interface to the Places API. Used for searching and getting details about places. This class
+ * Main interface to the Places SDK. Used for searching and getting details about places. This class
  * should be accessed through the [GMSPlacesClient sharedClient] method.
  *
  * GMSPlacesClient methods should only be called from the main thread. Calling these methods from
@@ -106,7 +106,7 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
 @interface GMSPlacesClient : NSObject
 
 /**
- * Provides the shared instance of GMSPlacesClient for the Google Places API for iOS, creating it if
+ * Provides the shared instance of GMSPlacesClient for the Google Places SDK for iOS, creating it if
  * necessary.
  *
  * If your application often uses methods of GMSPlacesClient it may want to hold onto this object
@@ -115,7 +115,7 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
 + (instancetype)sharedClient;
 
 /**
- * Provides your API key to the Google Places API for iOS. This key is generated for your
+ * Provides your API key to the Google Places SDK for iOS. This key is generated for your
  * application via the Google APIs Console, and is paired with your application's bundle ID to
  * identify it. This should be called by your application before using GMSPlacesClient.
  * (e.g., in application:didFinishLaunchingWithOptions:).
@@ -125,13 +125,13 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
 + (BOOL)provideAPIKey:(NSString *)key;
 
 /**
- * Returns the open source software license information for the Google Places API for iOS. This
+ * Returns the open source software license information for the Google Places SDK for iOS. This
  * information must be made available within your application.
  */
 + (NSString *)openSourceLicenseInfo;
 
 /**
- * Returns the version for this release of the Google Places API for iOS.
+ * Returns the version for this release of the Google Places SDK for iOS.
  */
 + (NSString *)SDKVersion;
 
@@ -306,4 +306,4 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
 
 @end
 
-NS_ASSUME_NONNULL_END;
+NS_ASSUME_NONNULL_END

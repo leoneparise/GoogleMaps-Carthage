@@ -1,6 +1,6 @@
 //
 //  GMSAutocompleteResultsViewController.h
-//  Google Places API for iOS
+//  Google Places SDK for iOS
 //
 //  Copyright 2016 Google Inc.
 //
@@ -23,7 +23,7 @@
 
 @class GMSAutocompleteResultsViewController;
 
-NS_ASSUME_NONNULL_BEGIN;
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Protocol used by |GMSAutocompleteResultsViewController|, to communicate the user's interaction
@@ -147,4 +147,4 @@ NS_ASSUME_NONNULL_BEGIN;
 
 @end
 
-NS_ASSUME_NONNULL_END;
+NS_ASSUME_NONNULL_END

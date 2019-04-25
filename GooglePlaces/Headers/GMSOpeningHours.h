@@ -1,6 +1,6 @@
 //
 //  GMSOpeningHours.h
-//  Google Places API for iOS
+//  Google Places SDK for iOS
 //
 //  Copyright 2018 Google Inc.
 //
@@ -10,7 +10,7 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN;
+NS_ASSUME_NONNULL_BEGIN
 
 /**
  * \defgroup OpenNowStatus GMSOpenNowStatus
@@ -133,4 +133,4 @@ typedef NS_ENUM(NSUInteger, GMSDayOfWeek) {
 
 @end
 
-NS_ASSUME_NONNULL_END;
+NS_ASSUME_NONNULL_END
