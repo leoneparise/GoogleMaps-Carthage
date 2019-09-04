@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -586,24 +586,24 @@
 		B9EE03981D9D84CC003E7610 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D552E4522378AC500E9367F /* CoreFoundation.framework */,
-				A76265072037689800DD730E /* CoreImage.framework */,
-				A72C2FA91F6A88100076B723 /* CoreTelephony.framework */,
 				B9EE03C41D9D8758003E7610 /* Accelerate.framework */,
-				B9EE03B91D9D85E5003E7610 /* CoreText.framework */,
-				B9EE03B71D9D85DD003E7610 /* OpenGLES.framework */,
-				B9EE03B51D9D85D4003E7610 /* ImageIO.framework */,
-				B9EE03B31D9D85CD003E7610 /* GLKit.framework */,
 				B9EE03AB1D9D8518003E7610 /* CoreData.framework */,
+				6D552E4522378AC500E9367F /* CoreFoundation.framework */,
 				B9EE03A91D9D8511003E7610 /* CoreGraphics.framework */,
-				B9EE03A71D9D8508003E7610 /* QuartzCore.framework */,
-				B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */,
-				B9EE03A31D9D84EC003E7610 /* Security.framework */,
-				B9EE03A11D9D84E3003E7610 /* libz.tbd */,
-				B9EE039F1D9D84DE003E7610 /* libc++.tbd */,
-				B9EE039D1D9D84D8003E7610 /* Foundation.framework */,
+				A76265072037689800DD730E /* CoreImage.framework */,
 				B9EE039B1D9D84D1003E7610 /* CoreLocation.framework */,
+				A72C2FA91F6A88100076B723 /* CoreTelephony.framework */,
+				B9EE03B91D9D85E5003E7610 /* CoreText.framework */,
+				B9EE039D1D9D84D8003E7610 /* Foundation.framework */,
+				B9EE03B31D9D85CD003E7610 /* GLKit.framework */,
+				B9EE03B51D9D85D4003E7610 /* ImageIO.framework */,
+				B9EE03B71D9D85DD003E7610 /* OpenGLES.framework */,
+				B9EE03A71D9D8508003E7610 /* QuartzCore.framework */,
+				B9EE03A31D9D84EC003E7610 /* Security.framework */,
+				B9EE03A51D9D8500003E7610 /* SystemConfiguration.framework */,
 				B9EE03991D9D84CC003E7610 /* UIKit.framework */,
+				B9EE039F1D9D84DE003E7610 /* libc++.tbd */,
+				B9EE03A11D9D84E3003E7610 /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -850,10 +850,11 @@
 				};
 			};
 			buildConfigurationList = B9EE03671D9D8429003E7610 /* Build configuration list for PBXProject "GoogleMaps" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B9EE03631D9D8429003E7610;
@@ -967,7 +968,11 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GooglePlaces;
@@ -998,12 +1003,17 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GooglePlaces;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1134,7 +1144,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMaps/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1153,7 +1167,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMaps/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMaps/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMaps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1171,7 +1189,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMapsBase/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1189,7 +1211,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsBase/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMapsBase/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1208,7 +1234,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMapsCore/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1227,7 +1257,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMapsCore/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsCore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1245,7 +1279,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsM4B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMapsM4B/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1263,7 +1301,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GoogleMapsM4B/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = GoogleMapsM4B/Modules/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.GoogleMapsM4B;
 				PRODUCT_NAME = "$(TARGET_NAME)";

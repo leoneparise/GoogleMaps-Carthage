@@ -156,7 +156,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  * Specify individual place details to fetch for object |GMSPlace|.
- * Defaults to returning all details if not overidden.
+ * Defaults to returning all details if not overridden.
  */
 @property(nonatomic, assign) GMSPlaceField placeFields;
 

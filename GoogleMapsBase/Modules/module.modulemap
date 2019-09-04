@@ -7,5 +7,8 @@ framework module GoogleMapsBase {
   link framework "CoreLocation"
   link framework "CoreTelephony"
   link framework "CoreText"
+  link framework "Foundation"
+  link framework "QuartzCore"
   link framework "Security"
+  link framework "UIKit"
 }
