@@ -11,21 +11,11 @@
 #import <UIKit/UIKit.h>
 
 #import "GMSOverlay.h"
+#import "GMSStrokeStyle.h"
 
 @class GMSPath;
 
 NS_ASSUME_NONNULL_BEGIN
-
-/** Describes the drawing style for one-dimensional entities such as polylines. */
-@interface GMSStrokeStyle : NSObject
-
-/** Creates a solid color stroke style. */
-+ (instancetype)solidColor:(UIColor *)color;
-
-/** Creates a gradient stroke style interpolating from |fromColor| to |toColor|. */
-+ (instancetype)gradientFromColor:(UIColor *)fromColor toColor:(UIColor *)toColor;
-
-@end
 
 /** Describes the style for some region of a polyline. */
 @interface GMSStyleSpan : NSObject

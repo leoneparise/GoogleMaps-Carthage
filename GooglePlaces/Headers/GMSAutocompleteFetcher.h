@@ -88,7 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Provide a |GMSAutocompleteSessionToken| for tracking the specific autocomplete query flow.
  */
-- (void)provideSessionToken:(GMSAutocompleteSessionToken *)sessionToken;
+- (void)provideSessionToken:(nullable GMSAutocompleteSessionToken *)sessionToken;
 
 /**
  * Notify the fetcher that the source text to autocomplete has changed.

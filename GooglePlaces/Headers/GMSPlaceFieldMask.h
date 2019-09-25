@@ -41,6 +41,7 @@ typedef NS_ENUM(NSUInteger, GMSPlaceField) {
   GMSPlaceFieldAddressComponents = 1 << 12,
   GMSPlaceFieldPhotos = 1 << 13,
   GMSPlaceFieldUserRatingsTotal = 1 << 14,
+  GMSPlaceFieldUTCOffsetMinutes = 1 << 15,
   GMSPlaceFieldAll = NSUIntegerMax,
 };
 

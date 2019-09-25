@@ -33,6 +33,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic, readonly, assign) CGSize maxSize;
 
+/**
+ * Initializer is not available.
+ */
+- (instancetype)init NS_UNAVAILABLE;
+
 @end
 
 NS_ASSUME_NONNULL_END

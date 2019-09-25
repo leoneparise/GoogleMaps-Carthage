@@ -30,6 +30,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic, readonly) NSUInteger length;
 
+/**
+ * Initializer is not available.
+ */
+- (instancetype)init NS_UNAVAILABLE;
+
 @end
 
 NS_ASSUME_NONNULL_END

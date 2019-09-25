@@ -11,11 +11,6 @@
 #import <CoreLocation/CoreLocation.h>
 #import <UIKit/UIKit.h>
 
-#if __has_feature(modules)
-@import GoogleMapsBase;
-#else
-#import <GoogleMapsBase/GoogleMapsBase.h>
-#endif
 #import "GMSAutocompleteBoundsMode.h"
 #import "GMSPlace.h"
 #import "GMSPlaceFieldMask.h"
@@ -131,9 +126,15 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
 + (NSString *)openSourceLicenseInfo;
 
 /**
- * Returns the version for this release of the Google Places SDK for iOS.
+ * Returns the version for this release of the Google Places SDK for iOS.. For example, "1.0.0".
  */
 + (NSString *)SDKVersion;
+
+/**
+ * Returns the long version for this release of the Google Places SDK for iOS.. For example, "1.0.0
+ * (102.1)".
+ */
++ (NSString *)SDKLongVersion;
 
 /**
  * Get details for a place. This method is non-blocking.
@@ -169,7 +170,7 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
  * Image data may be cached by the SDK. If the requested photo does not exist in the cache then a
  * network lookup will be performed.
  *
- * @param photo The photo for which to load a |UIImage|.
+ * @param photoMetadata The |GMSPlacePhotoMetadata| for which to load a |UIImage|.
  * @param callback The callback to invoke with the loaded |UIImage|.
  */
 - (void)loadPlacePhoto:(GMSPlacePhotoMetadata *)photoMetadata
@@ -192,7 +193,7 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
  * integer before use. If an image is requested which is larger than the maximum size available a
  * smaller image may be returned.
  *
- * @param photo The photo for which to load a |UIImage|.
+ * @param photoMetadata The |GMSPlacePhotoMetadata| for which to load a |UIImage|.
  * @param maxSize The maximum size of the image.
  * @param scale The scale to load the image at.
  * @param callback The callback to invoke with the loaded |UIImage|.
@@ -276,7 +277,7 @@ typedef void (^GMSPlacePhotoImageResultCallback)(UIImage *_Nullable photo,
                                       bounds:(nullable GMSCoordinateBounds *)bounds
                                   boundsMode:(GMSAutocompleteBoundsMode)boundsMode
                                       filter:(nullable GMSAutocompleteFilter *)filter
-                                sessionToken:(GMSAutocompleteSessionToken *)sessionToken
+                                sessionToken:(nullable GMSAutocompleteSessionToken *)sessionToken
                                     callback:(GMSAutocompletePredictionsCallback)callback;
 
 /**

@@ -1,0 +1,5 @@
+GoogleMaps/GoogleMaps filter=lfs diff=lfs merge=lfs -text
+GoogleMapsBase/GoogleMapsBase filter=lfs diff=lfs merge=lfs -text
+GoogleMapsCore/GoogleMapsCore filter=lfs diff=lfs merge=lfs -text
+GoogleMapsM4B/GoogleMapsM4B filter=lfs diff=lfs merge=lfs -text
+GooglePlaces/GooglePlaces filter=lfs diff=lfs merge=lfs -text

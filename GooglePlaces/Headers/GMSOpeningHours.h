@@ -95,7 +95,7 @@ typedef NS_ENUM(NSUInteger, GMSDayOfWeek) {
 
 /**
  * The open event of this period.
- * Each |GMSPeriod| is garanteed to have an open event.
+ * Each |GMSPeriod| is guaranteed to have an open event.
  * If the period is representing open 24hrs, it will only have the openEvent with time as "0000".
  */
 @property(nonatomic, readonly, strong) GMSEvent *openEvent;
@@ -116,8 +116,8 @@ typedef NS_ENUM(NSUInteger, GMSDayOfWeek) {
 /**
  * Contains all |GMSPeriod|s of open and close events for the week.
  *
- * Note: Multipler periods can be associated with a day (eg. Monday 7am - Monday 2pm,
- *                                                           Monday 5pm - Monday 10pm).
+ * Note: Multiple periods can be associated with a day (eg. Monday 7am - Monday 2pm,
+ *                                                          Monday 5pm - Monday 10pm).
  *
  *       Periods may also span multiple days (eg Friday 7pm - Saturday 2am).
  */

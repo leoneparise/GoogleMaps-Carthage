@@ -90,6 +90,11 @@ extern NSString *const kGMSAutocompleteMatchAttribute;
  */
 @property(nonatomic, copy, readonly) NSArray<NSString *> *types;
 
+/**
+ * Initializer is not available.
+ */
+- (instancetype)init NS_UNAVAILABLE;
+
 @end
 
 NS_ASSUME_NONNULL_END
